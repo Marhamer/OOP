@@ -147,6 +147,15 @@ print(student_3)
 print(lecturer_1)
 print(lecturer_2)
 print(lecturer_3)
-print(reviewer)
-print(student_1 > student_2)
-print(lecturer_2 < lecturer_3)
+
+
+# Выводим результат сравнения студентов по средним оценкам за домашние задания
+print(f'Результат сравнения студентов (по средним оценкам за ДЗ): '
+      f'{student_1.name} {student_1.surname} < {student_2.name} {student_2.surname} = {student_1 > student_2}')
+print()
+
+# Выводим результат сравнения лекторов по средним оценкам за лекции
+print(f'Результат сравнения лекторов (по средним оценкам за лекции): '
+      f'{lecturer_1.name} {lecturer_1.surname} < {lecturer_2.name} {lecturer_2.surname} = {lecturer_1 > lecturer_2}')
+print()
+
